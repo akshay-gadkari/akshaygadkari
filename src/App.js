@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import Posts from './components/posts.js';
+import About from './components/about.js';
 import Home from './components/home.js';
 import Nav from './components/nav.js';
 
@@ -30,6 +31,7 @@ class App extends Component {
 	      </nav>
 	      <Route exact path='/' component={Home} />
 	      <Route path='/posts' component={Posts} />
+	      <Route path='/about' component={About} />
               <header className="App-header">
 		<p>
 		  Edit <code>src/App.js</code> and save to reload.
