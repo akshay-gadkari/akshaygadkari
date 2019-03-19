@@ -4,6 +4,7 @@ import Posts from './components/posts.js';
 import About from './components/about.js';
 import Home from './components/home.js';
 import Nav from './components/nav.js';
+import Resume from './components/resume.js';
 
 import {
     BrowserRouter as Router,
@@ -32,6 +33,7 @@ class App extends Component {
 	      <Route exact path='/' component={Home} />
 	      <Route path='/posts' component={Posts} />
 	      <Route path='/about' component={About} />
+	      <Route path='/resume' component={Resume} />
               <header className="App-header">
 		<p>
 		  Edit <code>src/App.js</code> and save to reload.

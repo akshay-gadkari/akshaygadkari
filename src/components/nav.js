@@ -12,6 +12,9 @@ color: gray;
 background: white;
 border: 10px solid white;
 }
+// &:active {
+// background: white;
+// }
 `;
 
 const Navbar = styled.div`
@@ -26,6 +29,7 @@ class Nav extends Component {
 	      <Navlink href="localhost:3000/">Home</Navlink>
               <Navlink href="localhost:3000/posts">Posts</Navlink>
               <Navlink href="localhost:3000/about">About</Navlink>
+	      <Navlink href="localhost:3000/resume">Resume</Navlink>
 	    </Navbar>
 	);
     }

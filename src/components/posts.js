@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
+import styled from "styled-components";
 
+const MyPosts = styled.div`
+margin-left: 15px;
+`;
 
 class Posts extends Component {
     render() {
 	return (
-            <div className="myPosts">
-              <h1>Your Posts:</h1>
-	    </div>
+            <MyPosts className="myPosts">
+              <h1>Posts</h1>
+	    </MyPosts>
 	);
     }
 }
