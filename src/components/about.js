@@ -7,8 +7,6 @@ class About extends Component {
             <div className="myAbout">
               <h1>About Me</h1>
               <a href="https://www.linkedin.com/in/akshay-g-265b9280/">LinkedIn</a>
-              <br/>
-              <a href="https://github.com/akshay-gadkari">GitHub</a>
 	    </div>
 	);
     }
