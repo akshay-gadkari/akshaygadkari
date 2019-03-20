@@ -26,10 +26,10 @@ class Nav extends Component {
     render() {
 	return (
             <Navbar>
-	      <Navlink href="localhost:3000/">Home</Navlink>
-              <Navlink href="localhost:3000/posts">Posts</Navlink>
-              <Navlink href="localhost:3000/about">About</Navlink>
-	      <Navlink href="localhost:3000/resume">Resume</Navlink>
+	      <Navlink href="https://akshaygadkari.netlify.com/">Home</Navlink>
+              <Navlink href="https://akshaygadkari.netlify.com/posts">Posts</Navlink>
+              <Navlink href="https://akshaygadkari.netlify.com/about">About</Navlink>
+	      <Navlink href="https://akshaygadkari.netlify.com/resume">Resume</Navlink>
 	    </Navbar>
 	);
     }
