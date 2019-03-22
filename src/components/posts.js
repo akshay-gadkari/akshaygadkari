@@ -7,8 +7,11 @@ margin-left: 15px;
 
 const Post = styled.div`
 margin-left: 15px;
+margin-right: 30px;
+padding: 0 30px 0 30px;
+max-width: 1200px;
 border: 1px solid black;
-border-radius: 5px;
+border-radius: 6px;
 `;
 
 class Posts extends Component {
