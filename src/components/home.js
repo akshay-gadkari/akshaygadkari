@@ -11,6 +11,7 @@ max-height: 200px;
 
 const MyHome = styled.div`
 margin-left: 15px;
+margin-top: 60px;
 `;
 
 class Home extends Component {

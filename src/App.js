@@ -40,11 +40,11 @@ class App extends Component {
 		</p>
 		<a
 		  className="App-link"
-		  href="https://reactjs.org"
+		  href="https://github.com/akshay-gadkari/"
 		  target="_blank"
 		  rel="noopener noreferrer"
 		  >
-		  Learn React
+		  GitHub
 		</a>
               </header>
 	    </div>

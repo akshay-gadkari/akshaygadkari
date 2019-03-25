@@ -20,6 +20,9 @@ border: 10px solid white;
 const Navbar = styled.div`
 padding-left: 15px;
 background: lightblue;
+position: fixed;
+top: 0;
+width: 100%;
 `;
 
 class Nav extends Component {

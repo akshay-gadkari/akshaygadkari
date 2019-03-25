@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 const MyAbout = styled.div`
 margin-left: 15px;
+margin-top: 60px;
 `;
 
 class About extends Component {
