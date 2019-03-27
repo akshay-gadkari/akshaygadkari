@@ -6,7 +6,6 @@ import Home from './components/home.js';
 import Nav from './components/nav.js';
 import Resume from './components/resume.js';
 import styled from "styled-components";
-
 import {
     BrowserRouter as Router,
     Route,
