@@ -23,6 +23,7 @@ background: lightblue;
 position: fixed;
 top: 0;
 width: 100%;
+padding: 5px 0 5px 10px;
 `;
 
 class Nav extends Component {
@@ -31,11 +32,12 @@ class Nav extends Component {
             <Navbar>
 	      <Navlink href="https://akshaygadkari.netlify.com/">Home</Navlink>
               <Navlink href="https://akshaygadkari.netlify.com/posts">Posts</Navlink>
-              <Navlink href="https://akshaygadkari.netlify.com/about">About</Navlink>
 	      <Navlink href="https://akshaygadkari.netlify.com/resume">Resume</Navlink>
 	    </Navbar>
 	);
     }
 }
+
+//<Navlink href="https://akshaygadkari.netlify.com/about">About</Navlink>
 
 export default Nav;

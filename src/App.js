@@ -5,6 +5,7 @@ import About from './components/about.js';
 import Home from './components/home.js';
 import Nav from './components/nav.js';
 import Resume from './components/resume.js';
+import styled from "styled-components";
 
 import {
     BrowserRouter as Router,
@@ -13,17 +14,21 @@ import {
     NavLink
 } from "react-router-dom";
 
-class App extends Component {
-    // componentDidMount() {
-    // 	axios
-    // 	    .get('http://localhost:3000/posts/')
-    // 	    .then(response => {
-    // 		const notes = response.data;
-    // 		this.setState({notes});
-    // 	    })
-    // 	    .catch(err => console.log(err));
-    // }
+const Footer = styled.header`
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+max-width: 450px;
+margin-left: 15px;
+margin-top: 15px;
+margin-bottom: 15px;
+`;
 
+const A = styled.a`
+font-size: 20px;
+`;
+
+class App extends Component {
     render() {
 	return (
 	    <div className="App">
@@ -32,21 +37,30 @@ class App extends Component {
 	      </nav>
 	      <Route exact path='/' component={Home} />
 	      <Route path='/posts' component={Posts} />
-	      <Route path='/about' component={About} />
 	      <Route path='/resume' component={Resume} />
-              <header className="App-header">
-		<p>
-		  Edit <code>src/App.js</code> and save to reload.
-		</p>
-		<a
-		  className="App-link"
+              <Footer>
+		<A
 		  href="https://github.com/akshay-gadkari/"
 		  target="_blank"
 		  rel="noopener noreferrer"
 		  >
 		  GitHub
-		</a>
-              </header>
+		</A>
+		<A
+		  href="https://www.linkedin.com/in/akshay-g-265b9280/"
+		  target="_blank"
+		  rel="noopener noreferrer"
+		  >
+		  LinkedIn
+		</A>
+		<A
+		  href="mailto:akshay.gadkari@gmail.com"
+		  target="_blank"
+		  rel="noopener noreferrer"
+		  >
+		  Email Me
+		</A>
+              </Footer>
 	    </div>
 	);
     }
