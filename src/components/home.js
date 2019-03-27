@@ -13,7 +13,7 @@ margin-right: auto;
 `;
 
 const MyHome = styled.div`
-margin-left: 15px;
+margin-left: 30px;
 margin-top: 60px;
 `;
 

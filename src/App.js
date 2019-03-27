@@ -18,20 +18,30 @@ const Footer = styled.header`
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-max-width: 450px;
-margin-left: 15px;
+max-width: 400px;
+margin-left: 30px;
 margin-top: 15px;
 margin-bottom: 15px;
+//background: lightgray;
 `;
 
 const A = styled.a`
 font-size: 20px;
+text-decoration: none;
+font-size: 25px;
+&:hover {
+color: grey;
+}
+`;
+
+const Background = styled.div`
+//background: lightgray;
 `;
 
 class App extends Component {
     render() {
 	return (
-	    <div className="App">
+	    <Background>
 	      <nav className="navbar">
 		<Route path='/' component={Nav} />
 	      </nav>
@@ -61,7 +71,7 @@ class App extends Component {
 		  Email Me
 		</A>
               </Footer>
-	    </div>
+	    </Background>
 	);
     }
 }
