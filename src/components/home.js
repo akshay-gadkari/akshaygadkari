@@ -15,13 +15,21 @@ margin-right: auto;
 const MyHome = styled.div`
 margin-left: 30px;
 margin-top: 60px;
+//flex-direction: row;
+`;
+
+const Split = styled.div`
+display: flex;
+flex-direction: row;
+width: 100%;
 `;
 
 const Main = styled.div`
-margin: auto;
-width: 80%;
+//margin: auto;
+width: 50%;
+height: 50%;
 justify-content: space-between;
-flex-direction: row;
+//flex-direction: row;
 `;
 
 const H2 = styled.h2`
@@ -31,30 +39,35 @@ text-align: center;
 margin-bottom: 10px;
 `;
 
+const H3 = styled.h3`
+margin:auto;
+width: 50%;
+text-align: center;
+`;
 
-// const H3 = styled.h3`
-// margin:auto;
-// width: 50%;
-// text-align: center;
-// `;
-
+const Projects = styled.div`
+//flex-direction: row;
+width: 50%;
+`;
 
 class Home extends Component {
     render() {
 	return (
             <MyHome className="myHome">
               <h1>Home</h1>
-              <Main>
-		<Image class="center" alt="profile pic" src={profile}/>
-                <br/>
-		<H2>Akshay Gadkari</H2>
-		<H2>akshay.gadkari@gmail.com</H2>
-		<H2>(408) 807-6119</H2>
-	      </Main>
-              <br/>
-	      <h2>Projects</h2>
-	      <a href="https://movebytes.com">MoveBytes</a>
-              <p>A file sharing app that lets you share files with anyone.</p>
+              <Split>
+		<Main>
+		  <Image class="center" alt="profile pic" src={profile}/>
+                  <br/>
+		  <H2>Akshay Gadkari</H2>
+		  <H3>(408) 807-6119</H3>
+		</Main>
+		<Projects>
+		  <h2>Projects</h2>
+		  <a href="https://movebytes.com">MoveBytes</a>
+		  <p>A file sharing app that lets you share files with anyone.</p>
+		</Projects>
+	      </Split>
 	    </MyHome>
 	);
     }
