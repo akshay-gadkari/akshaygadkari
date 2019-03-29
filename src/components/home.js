@@ -13,9 +13,9 @@ margin-right: auto;
 `;
 
 const MyHome = styled.div`
-margin-left: 30px;
+padding-left: 30px;
 margin-top: 60px;
-//flex-direction: row;
+background: #0F1626;
 `;
 
 const Split = styled.div`
@@ -25,11 +25,11 @@ width: 100%;
 `;
 
 const Main = styled.div`
-//margin: auto;
 width: 50%;
 height: 50%;
+min-height: 800px;
 justify-content: space-between;
-//flex-direction: row;
+padding-top: 2%;
 `;
 
 const H2 = styled.h2`
@@ -37,26 +37,40 @@ margin:auto;
 width: 50%;
 text-align: center;
 margin-bottom: 10px;
+color: #F5F5F5;
+font-weight: bold;
+font-size: 35px;
 `;
 
 const H3 = styled.h3`
 margin:auto;
 width: 50%;
 text-align: center;
+color: #F5F5F5;
+font-weight: bold;
+font-size: 25px;
 `;
 
 const Projects = styled.div`
 //flex-direction: row;
 width: 50%;
+color: #F5F5F5;
+padding-top: 1.5%;
+`;
+
+const A = styled.a`
+color: #F5F5F5;
+font-size: 30px;
+font-weight: bold;
 `;
 
 class Home extends Component {
     render() {
 	return (
             <MyHome className="myHome">
-              <h1>Home</h1>
               <Split>
 		<Main>
+                  <H2>Home</H2>
 		  <Image class="center" alt="profile pic" src={profile}/>
                   <br/>
 		  <H2>Akshay Gadkari</H2>
@@ -64,7 +78,12 @@ class Home extends Component {
 		</Main>
 		<Projects>
 		  <h2>Projects</h2>
-		  <a href="https://movebytes.com">MoveBytes</a>
+		  <A href="https://sharebigfiles.netlify.com">MoveBytes</A>
+		  <p>A file sharing app that lets you share files with anyone.</p>
+		  <p>A file sharing app that lets you share files with anyone.</p>
+		  <p>A file sharing app that lets you share files with anyone.</p>
+		  <p>A file sharing app that lets you share files with anyone.</p>
+		  <p>A file sharing app that lets you share files with anyone.</p>
 		  <p>A file sharing app that lets you share files with anyone.</p>
 		</Projects>
 	      </Split>

@@ -15,6 +15,7 @@ import {
 } from "react-router-dom";
 
 const Footer = styled.header`
+font-weight: bold;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
@@ -22,15 +23,16 @@ max-width: 400px;
 margin-left: 30px;
 margin-top: 15px;
 margin-bottom: 15px;
-//background: lightgray;
 `;
 
 const A = styled.a`
 font-size: 20px;
 text-decoration: none;
 font-size: 25px;
+color: #AB987A;
 &:hover {
-color: grey;
+color: #FF533D;
+font-size: 30px;
 }
 `;
 

@@ -4,26 +4,23 @@ import styled from "styled-components";
 const Navlink = styled.a`
 padding-right: 25px;
 padding-top: 20px;
-font-size: 35px;
+font-size: 30px;
 text-decoration: none;
-//background: lightblue;
-color: gray;
-&:hover {
 background: white;
-border: 10px solid white;
+font-weight: bold;
+color: #AB987A;
+&:hover {
+font-size: 40px;
+color: #FF533D;
 }
-// &:active {
-// background: white;
-// }
 `;
 
 const Navbar = styled.div`
-padding-left: 15px;
-background: lightblue;
+background: white;
 position: fixed;
 top: 0;
 width: 100%;
-padding: 5px 0 5px 10px;
+padding: 10px 0 0px 15px;
 `;
 
 class Nav extends Component {
