@@ -29,7 +29,7 @@ width: 50%;
 height: 50%;
 min-height: 800px;
 justify-content: space-between;
-padding-top: 2%;
+padding-top: 2.5%;
 `;
 
 const H2 = styled.h2`
