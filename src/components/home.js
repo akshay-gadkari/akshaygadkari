@@ -80,11 +80,6 @@ class Home extends Component {
 		  <h2>Projects</h2>
 		  <A href="https://sharebigfiles.netlify.com">MoveBytes</A>
 		  <p>A file sharing app that lets you share files with anyone.</p>
-		  <p>A file sharing app that lets you share files with anyone.</p>
-		  <p>A file sharing app that lets you share files with anyone.</p>
-		  <p>A file sharing app that lets you share files with anyone.</p>
-		  <p>A file sharing app that lets you share files with anyone.</p>
-		  <p>A file sharing app that lets you share files with anyone.</p>
 		</Projects>
 	      </Split>
 	    </MyHome>
