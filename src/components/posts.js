@@ -2,8 +2,11 @@ import React, { Component } from 'react';
 import styled from "styled-components";
 
 const MyPosts = styled.div`
-margin-left: 15px;
+//margin-left: 15px;
 margin-top: 60px;
+background: #0F1626;
+color: #F5F5F5;
+padding: 1% 1%;
 `;
 
 const Post = styled.div`
@@ -11,8 +14,8 @@ margin-left: 15px;
 margin-right: 30px;
 padding: 0 30px 0 30px;
 max-width: 1200px;
-border: 1px solid black;
-border-radius: 6px;
+//border: 1px solid #F5F5F5;
+//border-radius: 6px;
 `;
 
 const Header = styled.div`
