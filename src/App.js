@@ -32,7 +32,7 @@ font-size: 25px;
 color: #AB987A;
 &:hover {
 color: #FF533D;
-font-size: 30px;
+font-size: 29px;
 }
 `;
 
