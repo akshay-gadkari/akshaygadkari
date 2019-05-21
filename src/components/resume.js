@@ -10,7 +10,7 @@ class Resume extends Component {
     render() {
 	return (
 	    <MyResume>
-	      <iframe width="100%" height="1300px" src="https://www.docdroid.net/5Czd7vz/resume-17-creddle.pdf" frameborder="0" allowtransparency allowfullscreen></iframe>
+	      <iframe width="100%" height="1400px" src="https://www.docdroid.net/5Czd7vz/resume-17-creddle.pdf" frameborder="0" allowtransparency allowfullscreen></iframe>
 	    </MyResume>
 	);
     }
