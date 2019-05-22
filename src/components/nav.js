@@ -29,7 +29,7 @@ class Nav extends Component {
             <Navbar>
 	      <Navlink href="https://akshaygadkari.com/">Home</Navlink>
               <Navlink href="/posts">Posts</Navlink>
-	      <Navlink href="https://akshaygadkari.netlify.com/resume">Resume</Navlink>
+	      <Navlink href="/resume">Resume</Navlink>
 	    </Navbar>
 	);
     }
