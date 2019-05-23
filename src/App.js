@@ -40,6 +40,8 @@ const Background = styled.div`
 //background: lightgray;
 `;
 
+document.title = 'Akshay Gadkari';
+
 class App extends Component {
     render() {
 	return (

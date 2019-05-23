@@ -27,7 +27,7 @@ class Nav extends Component {
     render() {
 	return (
             <Navbar>
-	      <Navlink href="https://akshaygadkari.com/">Home</Navlink>
+	      <Navlink href="https://agadkari.com/">Home</Navlink>
               <Navlink href="/posts">Posts</Navlink>
 	      <Navlink href="/resume">Resume</Navlink>
 	    </Navbar>
