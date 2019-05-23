@@ -29,7 +29,7 @@ class Nav extends Component {
             <Navbar>
 	      <Navlink href="https://agadkari.com/">Home</Navlink>
               <Navlink href="/posts">Posts</Navlink>
-	      <Navlink href="https://agadkari.com/resume">Resume</Navlink>
+	      <Navlink href="/resume">Resume</Navlink>
 	    </Navbar>
 	);
     }
